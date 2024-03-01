@@ -1,0 +1,89 @@
+// Presets
+
+img {
+    max-width: 100%;
+}
+
+// Positioning
+
+body {
+    min-height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
+
+    header {
+        border-bottom: 1px solid $color-black;
+        display: flex;
+        flex-wrap: none;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1em 0;
+        margin-bottom: 2em;
+        h1 {
+            font-size: 3em;
+            font-weight: 700;
+        }
+        nav {
+            @include respond-to(0, $desktop-break) {
+                .navbar-collapse.show,
+                .navbar-collapse.collapsing {
+                    position: absolute;
+                    top: 65px;
+                    right: 0;
+                    background: #eee;
+                    ul {
+                        padding: 1em;
+                        width: 80vw;
+                        text-align: right;
+                        align-items: end;
+                    }
+                }
+            }
+            margin: 0;
+            padding: 0;
+            ul,
+            li {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            ul {
+                display: flex;
+                flex-wrap: none;
+                align-items: center;
+                justify-content: space-between;
+                gap: 1.3em;
+                li a {
+                    padding: 0 !important;
+                    font-size: 1.3em !important;
+                }
+            }
+        }
+    }
+
+    main {
+        font-size: 1.3em;
+    }
+}
+
+/* mobile layout */
+
+@include respond-to(0, $desktop-break) {
+    header,
+    main {
+        padding: 0 1em !important;
+    }
+}
+
+/* tablet tweaks */
+@include respond-to($tablet-break, $desktop-break) {
+}
+
+/* desktop layout */
+
+@include respond-to($desktop-break) {
+    header,
+    main {
+        @include container;
+    }
+}

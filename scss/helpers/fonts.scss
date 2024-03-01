@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* sans fonts */
+$font-montserrat: 'Montserrat', sans-serif;
+
+/* serif fonts */
+$font-nunito: 'Nunito', serif;
+
+/* mono fonts */
+/* $font-ptmono: 'PT Mono', monospace; */
+
+/* font settings */
+$font-headers: $font-nunito;
+$font-sans: $font-montserrat;
+/* $font-serif: $font-nunito; */
+$font-mono: monospace;
+$font-display: $font-nunito;
+
+/* base type */
+
+body {
+    font-family: $font-mono;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-headers;
+}
+
+nav {
+    font-family: $font-sans;
+}

@@ -1,0 +1,5 @@
+@mixin container {
+    width: $desktop-break;
+    max-width: $desktop-break;
+    margin: 0 auto;
+}

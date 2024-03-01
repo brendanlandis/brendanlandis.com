@@ -1,0 +1,39 @@
+@mixin nav-item-default-state {
+    text-decoration: underline !important;
+    text-decoration-thickness: 10%;
+    font-weight: normal;
+}
+
+@mixin nav-item-hover-state {
+    text-decoration: none !important;
+    /* color: $color-blackest !important; */
+}
+
+@mixin nav-item-active-state {
+    font-weight: 600;
+    text-decoration: none !important;
+    /* color: $color-blackest !important; */
+}
+
+nav {
+    a {
+        @include nav-item-default-state;
+    }
+    a:hover,
+    a:focus,
+    a:active {
+        @include nav-item-hover-state;
+    }
+    &.active a {
+        @include nav-item-active-state;
+    }
+    body.home & .nav-home a,
+    body.about & .nav-about a,
+    body.servicesoffered & .nav-servicesoffered a,
+    body.faqs & .nav-faqs a,
+    body.policies & .nav-policies a,
+    body.testimonials & .nav-testimonials a,
+    body.contact & .nav-contact a, {
+        @include nav-item-active-state;
+    }
+}
