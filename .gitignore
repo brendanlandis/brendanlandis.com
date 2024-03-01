@@ -1,0 +1,8 @@
+.DS_Store
+/external
+/node_modules
+# *.psd
+*.zip
+*.mp3
+*.m4a
+/!
