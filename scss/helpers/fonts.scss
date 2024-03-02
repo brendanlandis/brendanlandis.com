@@ -1,37 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Madimi+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* sans fonts */
-$font-montserrat: 'Montserrat', sans-serif;
+$font-josefin: 'Josefin Sans', sans-serif;
+$font-madimi: 'Madimi One', sans-serif;
+$font-opensans: 'Open Sans', sans-serif;
 
 /* serif fonts */
-$font-nunito: 'Nunito', serif;
+/* $font-nunito: 'Nunito', serif; */
 
 /* mono fonts */
 /* $font-ptmono: 'PT Mono', monospace; */
 
 /* font settings */
-$font-headers: $font-nunito;
-$font-sans: $font-montserrat;
+$font-headers: $font-madimi;
+$font-sans: $font-opensans;
 /* $font-serif: $font-nunito; */
 $font-mono: monospace;
-$font-display: $font-nunito;
+$font-display: $font-josefin;
 
 /* base type */
 
 body {
-    font-family: $font-mono;
+    font-family: $font-sans;
     font-weight: 400;
 }
 
-h1,
+h1 {
+    font-family: $font-display;
+    font-weight: 400;
+}
 h2,
 h3,
 h4,
 h5,
 h6 {
     font-family: $font-headers;
+    font-weight: 400;
 }
 
 nav {
-    font-family: $font-sans;
+    font-family: $font-headers;
 }
