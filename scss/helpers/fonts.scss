@@ -28,6 +28,15 @@ body {
 h1 {
     font-family: $font-display;
     font-weight: 400;
+    font-size: 3em;
+    line-height: 1em;
+    margin-bottom: 0;
+}
+#sub-h1 {
+    font-family: $font-display;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.4em;
 }
 h2,
 h3,

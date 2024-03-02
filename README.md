@@ -4,3 +4,5 @@
 + color scheme
 + fonts
 - layout
+    - rip out the old
+    - sketch it

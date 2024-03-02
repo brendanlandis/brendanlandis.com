@@ -1,16 +1,30 @@
 @mixin nav-item-default-state {
     text-decoration: underline !important;
     text-decoration-thickness: 10%;
-    font-weight: normal;
+    font-weight: 100;
+    font-size: 1.5em;
+    transition-duration: 50ms;
+    &::before {
+        content: "";
+        width: 1.5em;
+        margin-left: -1.4em;
+        display: inline-block;
+    }
 }
 
 @mixin nav-item-hover-state {
-    text-decoration: none !important;
+    /* text-decoration: none !important; */
+    letter-spacing: 0.05em;
 }
 
 @mixin nav-item-active-state {
     font-weight: 600;
     text-decoration: none !important;
+    &::before {
+        content: "– ";
+        width: 1.5em;
+        display: inline-block;
+    }
 }
 
 nav {
@@ -25,13 +39,10 @@ nav {
     &.active a {
         @include nav-item-active-state;
     }
-    body.home & .nav-home a,
     body.about & .nav-about a,
-    body.servicesoffered & .nav-servicesoffered a,
-    body.faqs & .nav-faqs a,
-    body.policies & .nav-policies a,
-    body.testimonials & .nav-testimonials a,
-    body.contact & .nav-contact a, {
+    body.projects & .nav-projects a,
+    body.resume & .nav-resume a,
+    body.other & .nav-other a {
         @include nav-item-active-state;
     }
 }

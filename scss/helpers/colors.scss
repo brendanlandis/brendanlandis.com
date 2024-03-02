@@ -50,17 +50,18 @@ $color-border: $color-black;
 /* base colors */
 
 body {
-  color: $color-text;
-  background-image: linear-gradient(
-    130deg,
-    hsl(212deg 21% 14%) 0%,
-    hsl(188deg 25% 18%) 79%,
-    hsl(152deg 15% 25%) 100%
-  );
+    color: $color-text;
+    background-image: linear-gradient(
+        130deg,
+        hsl(212deg 21% 14%) 0%,
+        hsl(188deg 25% 18%) 79%,
+        hsl(152deg 15% 25%) 100%
+    );
 }
 
-h1{
-  color: lighten($color-header, 30%);;
+h1,
+#sub-h1 {
+    color: $color-whitest;
 }
 
 h2,
@@ -68,12 +69,18 @@ h3,
 h4,
 h5,
 h6 {
-  color: $color-subheader;
+    color: $color-subheader;
 }
 
 a {
-  color: $color-link;
-  &:hover {
-    color: $color-hover;
-  }
+    color: $color-link;
+    &:hover {
+        color: $color-hover;
+    }
+}
+.icon {
+    background: $color-link;
+    &:hover {
+        background: $color-hover;
+    }
 }
