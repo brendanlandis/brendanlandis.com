@@ -1,7 +1,7 @@
 @mixin nav-item-default-state {
     text-decoration: underline !important;
     text-decoration-thickness: 10%;
-    font-weight: 100;
+    font-weight: 500;
     font-size: 1.5em;
     transition-duration: 50ms;
     &::before {
@@ -13,13 +13,14 @@
 }
 
 @mixin nav-item-hover-state {
-    /* text-decoration: none !important; */
     letter-spacing: 0.05em;
 }
 
 @mixin nav-item-active-state {
-    font-weight: 600;
+    font-weight: 900;
     text-decoration: none !important;
+    letter-spacing: 0.05em;
+    color: $color-hover;
     &::before {
         content: "– ";
         width: 1.5em;
