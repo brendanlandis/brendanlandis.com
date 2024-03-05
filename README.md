@@ -10,5 +10,6 @@
 + finalize text
 + mobile layout
 + favicon
-- finalize code
-    - robots.txt / humans.txt
++ finalize code
+- 404
+- launch first page, check it
