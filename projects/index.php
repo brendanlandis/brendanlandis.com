@@ -5,14 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Brendan Landis : Projects</title>
         <base href="https://brendanlandis.com/" />
-        <?php include 'html-header.php'; ?>
+        <?php include '../html-header.php'; ?>
     </head>
 
     <body class="about">
-        <?php include "header.php"; ?>
+        <?php include "../header.php"; ?>
         <main>
             <p>Projects</p>
         </main>
-        <?php include "footer.php"; ?>
+        <?php include "../footer.php"; ?>
     </body>
 </html>
