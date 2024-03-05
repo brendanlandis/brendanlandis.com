@@ -1,62 +1,118 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Page not found</title>
+        <link rel="stylesheet" href="css/screen.css" />
 
-<head>
-  <meta charset="utf-8">
-  <title>Page Not Found</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    * {
-      line-height: 1.2;
-      margin: 0;
-    }
+        <link type="text/plain" rel="author" href="humans.txt" />
+        <meta name="description" content="Portfolio for Brendan Landis" />
 
-    html {
-      color: #888;
-      display: table;
-      font-family: sans-serif;
-      height: 100%;
-      text-align: center;
-      width: 100%;
-    }
+        <meta property="og:title" content="Brendan Landis" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://brendanlandis.com/" />
+        <meta property="og:image" content="https://brendanlandis.com/img/self.jpg" />
 
-    body {
-      display: table-cell;
-      vertical-align: middle;
-      margin: 2em auto;
-    }
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
 
-    h1 {
-      color: #555;
-      font-size: 2em;
-      font-weight: 400;
-    }
+        <meta name="theme-color" content="#1c232b" />
+    </head>
 
-    p {
-      margin: 0 auto;
-      width: 280px;
-    }
-
-    @media only screen and (max-width: 280px) {
-
-      body,
-      p {
-        width: 95%;
-      }
-
-      h1 {
-        font-size: 1.5em;
-        margin: 0 0 0.3em;
-      }
-
-    }
-  </style>
-</head>
-
-<body>
-  <h1>Page Not Found</h1>
-  <p>Sorry, but the page you were trying to view does not exist.</p>
-</body>
-
+    <body class="404">
+        <header>
+            <h1>Brendan Landis</h1>
+            <div id="sub-h1">designer &amp; front-end developer</div>
+            <nav
+                class="navbar navbar-expand-lg"
+                role="navigation"
+                aria-label="Main"
+            >
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#main-nav-container"
+                    aria-controls="main-nav-container"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main-nav-container">
+                    <ul id="main-nav">
+                        <li class="nav-about"><a href="/">About</a></li>
+                        <li class="nav-projects">
+                            <a href="/projects/">Projects</a>
+                        </li>
+                        <li class="nav-resume">
+                            <a href="/resume/">Resume</a>
+                        </li>
+                        <li class="nav-other">
+                            <a href="/other/">Other things I'm up to</a>
+                        </li>
+                    </ul>
+                    <ul id="social">
+                        <li>
+                            <a
+                                href="https://www.instagram.com/slow.names/"
+                                title="see me mostly post about my bands on instagram"
+                            >
+                                <span class="icon icon-instagram"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/brendanlandis"
+                                title="check out my code on github"
+                            >
+                                <span class="icon icon-github"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://mstdn.social/@slownames"
+                                title="read my very occasional posts on mastodon"
+                            >
+                                <span class="icon icon-mastodon"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="&#x6D;a&#105;&#x6C;t&#111;&colon;b&#64;&#115;lo&#x77;&#110;am&#101;s&period;&#110;e&#x74;"
+                                title="email me"
+                            >
+                                <span class="icon icon-email"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <p>
+                Hm, that page doesn't exist.
+            </p>
+        </main>
+        <script src="js/vendor/bootstrap.bundle.js"></script>
+        <script src="js/vendor/jquery-3.7.1.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
 </html>
-<!-- IE needs 512+ bytes: https://docs.microsoft.com/archive/blogs/ieinternals/friendly-http-error-pages -->
