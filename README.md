@@ -8,6 +8,7 @@
     + sketch it
 + a11y test
 + finalize text
-- mobile layout
++ mobile layout
 + favicon
 - finalize code
+    - robots.txt / humans.txt

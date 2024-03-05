@@ -1,4 +1,12 @@
-@mixin nav-item-default-state {
+@mixin nav-item-default-state-mobile {
+    text-decoration: underline !important;
+    text-decoration-thickness: 10%;
+    font-weight: 500;
+    font-size: 1.5em;
+    transition-duration: 50ms;
+}
+
+@mixin nav-item-default-state-desktop {
     text-decoration: underline !important;
     text-decoration-thickness: 10%;
     font-weight: 500;
@@ -16,7 +24,14 @@
     letter-spacing: 0.05em;
 }
 
-@mixin nav-item-active-state {
+@mixin nav-item-active-state-mobile {
+    font-weight: 900;
+    text-decoration: none !important;
+    letter-spacing: 0.05em;
+    color: $color-hover;
+}
+
+@mixin nav-item-active-state-desktop {
     font-weight: 900;
     text-decoration: none !important;
     letter-spacing: 0.05em;
@@ -30,20 +45,30 @@
 
 nav {
     a {
-        @include nav-item-default-state;
+        @include respond-to(0, $desktop-break) {
+            @include nav-item-default-state-mobile;
+        }
+        @include respond-to($desktop-break) {
+            @include nav-item-default-state-desktop;
+        }
     }
+
     a:hover,
     a:focus,
     a:active {
         @include nav-item-hover-state;
     }
-    &.active a {
-        @include nav-item-active-state;
-    }
+
+    &.active,
     body.about & .nav-about a,
     body.projects & .nav-projects a,
     body.resume & .nav-resume a,
     body.other & .nav-other a {
-        @include nav-item-active-state;
+        @include respond-to(0, $desktop-break) {
+            @include nav-item-active-state-mobile;
+        }
+        @include respond-to($desktop-break) {
+            @include nav-item-active-state-desktop;
+        }
     }
 }
