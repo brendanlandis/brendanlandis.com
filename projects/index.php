@@ -99,12 +99,97 @@
                 <div class="accordion-item">
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                            band web sites
+                            CMS-driven band sites
                         </button>
                     </h3>
                     <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionProjects">
                         <div class="accordion-body">
-                            Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.
+
+                            <div id="carouselBandSites" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/bands01.jpg" class="d-block w-100" alt="screenshot of the Receive web site">
+                                        <div class="carousel-caption">
+                                            <p>The front page for the band Receive displays upcoming shows, plus recent posts. (If there are no shows booked, it displays photos from the most recent show.)</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/bands02.jpg" class="d-block w-100" alt="screenshot of the Receive web site">
+                                        <div class="carousel-caption">
+                                            <p>The Shows page for Receive displays an archive of old flyers underneath the current schedule.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/bands03.jpg" class="d-block w-100" alt="screenshot of the Hey Exit web site">
+                                        <div class="carousel-caption">
+                                            <p>The front page for the defunct project Hey Exit displays a few randomly-chosen photos of old live performances.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/bands04.jpg" class="d-block w-100" alt="screenshot of the Hey Exit web site">
+                                        <div class="carousel-caption">
+                                            <p>The Press page displays reviews that are marked as CV-worthy in the CMS.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/bands05.jpg" class="d-block w-100" alt="screenshot of the Hey Exit web site">
+                                        <div class="carousel-caption">
+                                            <p>The Discography page first displays a selection of Hey Exit's major works...</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/bands06.jpg" class="d-block w-100" alt="screenshot of the Hey Exit web site">
+                                        <div class="carousel-caption">
+                                            <p>... Before displaying a list of complete works underneath.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/bands07.jpg" class="d-block w-100" alt="screenshot of the Hey Exit web site">
+                                        <div class="carousel-caption">
+                                            <p>A page for each Hey Exit release displays reviews, artwork, photos of physical editions, a Bandcamp embed &amp; Spotify link, and a host of other metadata.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/bands08.jpg" class="d-block w-100" alt="screenshot of the Hey Exit web site">
+                                        <div class="carousel-caption">
+                                            <p>The Live page again displays an archive of show flyers...</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/bands09.jpg" class="d-block w-100" alt="screenshot of the Hey Exit web site">
+                                        <div class="carousel-caption">
+                                            <p>... Before listing a complete gigography underneath.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-controls">
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselBandSites" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselBandSites" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselBandSites" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselBandSites" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselBandSites" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                        <button type="button" data-bs-target="#carouselBandSites" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                        <button type="button" data-bs-target="#carouselBandSites" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                        <button type="button" data-bs-target="#carouselBandSites" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                        <button type="button" data-bs-target="#carouselBandSites" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                        <button type="button" data-bs-target="#carouselBandSites" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                                    </div>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselBandSites" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <p>A pair of band web sites (one for an older project, one for a newer band), each calling data from the Slow Names REST API.</p>
+
+                            <p>Both sites are written in Typescript, using React and NextJS, including the NextJS App Router.</p>
+
+                            <p>I also used these projects as an opportunity to get familiar with Tailwind CSS and its approach to design, but ultimately opted to write my designs from scratch using CSS and Sass.</p>
                         </div>
                     </div>
                 </div>
