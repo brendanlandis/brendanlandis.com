@@ -1,7 +1,36 @@
 // Positioning
 
 .projects {
+    .accordion {
+        --bs-accordion-color: inherit;
+        --bs-accordion-bg: transparent;
+        --bs-accordion-border-color: transparent;
+        --bs-accordion-btn-padding-x: 0;
+        --bs-accordion-btn-padding-y: 0;
+        --bs-accordion-btn-color: inherit;
+        --bs-accordion-btn-bg: transparent;
+        --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23578bbe'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+        --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23578bbe'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+        --bs-accordion-btn-icon-width: 1em;
+        --bs-accordion-btn-focus-border-color: transparent;
+        --bs-accordion-btn-focus-box-shadow: none;
+        --bs-accordion-body-padding-x: 0;
+        --bs-accordion-body-padding-y: 0;
+        --bs-accordion-active-color: inherit;
+        --bs-accordion-active-bg: transparent;
+        .accordion-button {
+            font-size: inherit;
+        }
+        .accordion-item {
+            margin-bottom: 1em;
+        }
+        .accordion-body {
+            margin-top: 1em;
+        }
+    }
+
     .carousel {
+        margin-bottom: 3em;
         .carousel-inner {
             margin-bottom: 1em;
         }
@@ -15,7 +44,8 @@
                     background-color: lighten($color-2d2a, 20%);
                 }
             }
-            .carousel-control-prev, .carousel-control-next {
+            .carousel-control-prev,
+            .carousel-control-next {
                 width: 8%;
                 opacity: 1;
             }
@@ -31,7 +61,10 @@
             position: static;
             font-size: 0.8em;
             text-align: center;
-            * { text-align: center; margin-bottom: 0; }
+            * {
+                text-align: center;
+                margin-bottom: 0;
+            }
             padding: 0.5em 0 0 0;
             margin: 0;
         }

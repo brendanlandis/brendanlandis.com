@@ -5,18 +5,18 @@ img {
 }
 
 h2 {
-    font-size: 3em;
-    letter-spacing: 0.2em;
-    font-weight: 900;
-    margin-bottom: 1em;
-    /* text-shadow: -1px -1px 0 lighten($color-2d2a, 20%),
-        1px -1px 0 lighten($color-2d2a, 20%),
-        -1px 1px 0 lighten($color-2d2a, 20%),
-        1px 1px 0 lighten($color-2d2a, 20%); */
+    /* font-size: 3em; */
+    letter-spacing: 0.15em;
+    font-weight: 500;
+    margin-bottom: 0.4em;
+    /* text-shadow: -1px -1px 0 lighten($color-1d1a, 20%),
+        1px -1px 0 lighten($color-1d1a, 20%),
+        -1px 1px 0 lighten($color-1d1a, 20%),
+        1px 1px 0 lighten($color-1d1a, 20%); */
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 2.2em;
     letter-spacing: 0.1em;
     margin-bottom: 0.5em;
 }
@@ -83,11 +83,9 @@ body {
         }
     }
 
-    main {
+    section {
         font-size: 1.2em;
-        p {
-            text-align: left;
-        }
+        text-align: left;
     }
 }
 

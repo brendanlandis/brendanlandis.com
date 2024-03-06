@@ -64,7 +64,9 @@ h1,
     color: $color-whitest;
 }
 
-h2,
+h2 {
+    color: lighten($color-subheader, 15%);
+}
 h3 {
     color: $color-subheader;
 }

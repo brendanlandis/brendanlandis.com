@@ -1,2 +1,2 @@
-- 404
-- launch first page, check it
+- doublecheck media queries
+- fix jquery (do I need it?)

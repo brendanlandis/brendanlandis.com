@@ -11,7 +11,10 @@
     <body class="other">
         <?php include "../header.php"; ?>
         <main>
-            <h2>Other</h2>
+            <h2>Other things I'm up to</h2>
+            <section>
+                So yeah
+            </section>
         </main>
         <?php include "../footer.php"; ?>
     </body>

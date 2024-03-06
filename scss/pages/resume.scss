@@ -7,8 +7,6 @@
     section {
         margin-bottom: 3em;
     }
-    #skills {
-    }
     #experience, #education {
         ul:not(.job-notes) {
             margin: 0;
@@ -36,6 +34,7 @@
         }
         .job-duration {
             font-size: 0.9em;
+            margin-bottom: 0.5em;
         }
     }
 }

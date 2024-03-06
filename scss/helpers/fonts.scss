@@ -22,12 +22,12 @@ body {
     font-weight: 400;
 }
 
-h1 {
+h1, h2 {
     font-family: $font-display;
     font-weight: 400;
     font-size: 3em;
     line-height: 1em;
-    margin-bottom: 0;
+    margin: 0;
 }
 #sub-h1 {
     font-family: $font-display;
@@ -35,7 +35,7 @@ h1 {
     font-style: italic;
     font-size: 1.4em;
 }
-h2,
+
 h3,
 h4,
 h5,
