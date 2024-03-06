@@ -1,0 +1,49 @@
+// Positioning
+
+.projects {
+    .carousel {
+        .carousel-inner {
+            margin-bottom: 1em;
+        }
+        .carousel-controls {
+            position: relative;
+            margin-top: 0.5rem;
+            .carousel-indicators {
+                position: static;
+                margin-top: 1rem;
+                [data-bs-target] {
+                    background-color: lighten($color-2d2a, 20%);
+                }
+            }
+            .carousel-control-prev, .carousel-control-next {
+                width: 8%;
+                opacity: 1;
+            }
+        }
+        .carousel-control-prev-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23578bbe'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+        }
+        .carousel-control-next-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23578bbe'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+        }
+        .carousel-caption {
+            color: lighten($color-2d2a, 20%);
+            position: static;
+            font-size: 0.8em;
+            text-align: center;
+            * { text-align: center; margin-bottom: 0; }
+            padding: 0.5em 0 0 0;
+            margin: 0;
+        }
+    }
+}
+
+/* mobile layout */
+
+@include respond-to(0, $desktop-break) {
+}
+
+/* desktop layout */
+
+@include respond-to($desktop-break) {
+}

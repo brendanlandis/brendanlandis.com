@@ -95,10 +95,10 @@ body {
         .navbar-toggler {
             position: relative;
             z-index: 5;
-            background: lighten($color-3d1a, 15%);
-            border-color: $color-5d5a;
+            background: lighten($color-2d2a, 15%);
+            border-color: $color-blackest;
             span.navbar-toggler-icon {
-                background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%231c232b' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+                background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23000' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
             }
         }
         #main-nav-container {
