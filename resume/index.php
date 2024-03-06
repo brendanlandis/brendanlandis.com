@@ -13,9 +13,21 @@
     <?php include "../header.php"; ?>
     <main>
         <h2>Resume</h2>
+        <section id="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>Frontend design and development using <strong>HTML</strong>, modular and scalable <strong>CSS</strong>, and <strong>Javascript / Typescript</strong>, with a fondness for <strong>accessibility</strong>, <strong>user experience</strong>, and <strong>developer experience</strong>.</li>
+                <li>Intermediate level knowledge of <strong>React</strong> and <strong>NextJS</strong>.</li>
+                <li>Expert level knowledge with <strong>Wordpress</strong> and related <strong>templating systems (Twig &amp; Timber)</strong>.</li>
+                <li>Expert level knowledge of <strong>Adobe Photoshop</strong>. Intermediate level knowledge of <strong>InDesign</strong> and <strong>Illustrator</strong>.</li>
+                <li>Fluency with version control software (<strong>Git</strong>, <strong>SVN</strong>, et cetera).</li>
+                <li>Flexibility regarding the ever-changing ecosystems of frontend technologies, with an understanding that as sites grow and mature, so too do their technological needs.</li>
+                <li>Generally quick to learn and don't mind being out of my element. Appreciative of new challenges & plays well with others.</li>
+            </ul>
+        </section>
         <section id="experience">
             <h3>Experience</h3>
-            <ul>
+            <ul id="experience-list">
                 <li>
                     <h4>
                         <span class="job-title">Frontend Developer</span>
@@ -101,17 +113,6 @@
                         <li>Consulted individuals and small businesses on small business workflow, project management, personal and office organizational systems, computer literacy / networking / repair.</li>
                     </ul>
                 </li>
-            </ul>
-        </section>
-        <section id="skills">
-            <h3>Skills</h3>
-            <ul>
-                <li>Frontend design and development using HTML, modular and scalable CSS / Sass, and Javascript, with a fondness for a11y and user & developer experience.</li>
-                <li>Flexibility regarding the ever-changing ecosystem(s) of frontend technologies, with an understanding that as sites grow and mature, so too do their technological needs.</li>
-                <li>Presently focused on building my React and vanilla Javascript skills.</li>
-                <li>Expert level knowledge of Adobe Photoshop. Intermediate level knowledge of InDesign and Illustrator.</li>
-                <li>Fluency with version control software (Git, SVN, et cetera).</li>
-                <li>Generally quick to learn and don't mind being out of my element. Appreciative of new challenges & plays well with others.</li>
             </ul>
         </section>
         <section id="education">
