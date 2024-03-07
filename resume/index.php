@@ -20,7 +20,7 @@
             <ul>
                 <li>Frontend design and development using <strong>HTML</strong>, modular and scalable <strong>CSS</strong>, and <strong>Javascript / Typescript</strong>, with a fondness for <strong>accessibility</strong>, <strong>user experience</strong>, and <strong>developer experience</strong>.</li>
                 <li>Intermediate level knowledge of <strong>React</strong> and <strong>NextJS</strong>.</li>
-                <li>Expert level knowledge with <strong>Wordpress</strong> and related <strong>templating systems (Twig &amp; Timber)</strong>.</li>
+                <li>Expert level knowledge with <strong>Wordpress</strong> and related <strong>templating systems (Twig &amp; Timber, Advanced Custom Fields, Genesis Blocks)</strong>.</li>
                 <li>Expert level knowledge of <strong>Adobe Photoshop</strong>. Intermediate level knowledge of <strong>InDesign</strong> and <strong>Illustrator</strong>.</li>
                 <li>Fluency with version control software (<strong>Git</strong>, <strong>SVN</strong>, et cetera).</li>
                 <li>Flexibility regarding the ever-changing ecosystems of frontend technologies, with an understanding that as sites grow and mature, so too do their technological needs.</li>
