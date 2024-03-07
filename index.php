@@ -36,8 +36,7 @@
                 may be.
             </p>
             <p>
-                If you have a project you'd like to discuss, please don't
-                hesitate to
+                If you have a project you'd like to discuss, please
                 <a href="&#x6D;a&#105;&#x6C;t&#111;&colon;b&#64;&#115;lo&#x77;&#110;am&#101;s&period;&#110;e&#x74;" title="email me">get in touch</a>.
             </p>
         </section>

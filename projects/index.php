@@ -18,12 +18,113 @@
             <div class="accordion accordion-flush" id="accordionProjects">
                 <div class="accordion-item">
                     <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Clorox brands
+                        </button>
+                    </h3>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionProjects">
+                        <div class="accordion-body">
+
+                            <p>I worked remotely as part of Clorox's in-house dev team from 2013 to 2023. During that time I crafted and documented base styles and templates for numerous high-profile projects (clorox.com, pinesol.com, glad.com, kingsford.com, liquidplumr.com, and more).</p>
+
+                            <div id="carouselClorox" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/clorox01.jpg" class="d-block w-100" alt="screenshot of clorox.com">
+                                        <div class="carousel-caption">
+                                            <p>clorox.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/clorox02.jpg" class="d-block w-100" alt="screenshot of pinesol.com">
+                                        <div class="carousel-caption">
+                                            <p>pinesol.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/clorox03.jpg" class="d-block w-100" alt="screenshot of glad.com">
+                                        <div class="carousel-caption">
+                                            <p>glad.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/clorox04.jpg" class="d-block w-100" alt="screenshot of kingsford.com">
+                                        <div class="carousel-caption">
+                                            <p>kingsford.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/clorox05.jpg" class="d-block w-100" alt="screenshot of liquidplumr.com">
+                                        <div class="carousel-caption">
+                                            <p>liquidplumr.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/clorox06.jpg" class="d-block w-100" alt="screenshot of thecloroxcompany.com">
+                                        <div class="carousel-caption">
+                                            <p>thecloroxcompany.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/clorox07.jpg" class="d-block w-100" alt="screenshot of cloroxpro.com">
+                                        <div class="carousel-caption">
+                                            <p>cloroxpro.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-controls">
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselClorox" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselClorox" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselClorox" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselClorox" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselClorox" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                        <button type="button" data-bs-target="#carouselClorox" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                        <button type="button" data-bs-target="#carouselClorox" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                        <button type="button" data-bs-target="#carouselClorox" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                    </div>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselClorox" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <p>I was responsible for turning intricate wireframes into modular and scalable code using WCAG-compliant HTML, CSS, Javascript, and PHP. I also made critical bug fixes on live code, and advised design teams on web accessibility standards and best practices.</p>
+
+                            <p>I helped facilitate a Spanish translation of the core Clorox site, as well as multiple international sites, utilizing the same code base as a starting point for each.</p>
+
+                            <p class="project-link">
+                                <a href="https://www.clorox.com/" target="_blank">Clorox</a>
+                                /
+                                <a href="https://www.pinesol.com/" target="_blank">PineSol</a>
+                                /
+                                <a href="https://www.glad.com/" target="_blank">Glad</a>
+                                /
+                                <a href="https://www.kingsford.com/" target="_blank">Kingsford</a>
+                                /
+                                <a href="https://www.liquidplumr.com/" target="_blank">LiquidPlumr</a>
+                                /
+                                <a href="https://www.thecloroxcompany.com/" target="_blank">The Clorox Co.</a>
+                                /
+                                <a href="https://www.cloroxpro.com/" target="_blank">Clorox Pro</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                             Slow Names CMS
                         </button>
                     </h3>
                     <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionProjects">
                         <div class="accordion-body">
+                            <p>Slow Names CMS is a headless CMS meant to help musicians keep track of their recorded and live activity, as well as internal documents. I created this to fill the need of my own bands. It's currently working great for us, and being tested and expanded to work for others.</p>
+
                             <div id="carouselSlowNames" class="carousel slide">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
@@ -82,7 +183,6 @@
                                     </button>
                                 </div>
                             </div>
-                            <p>A headless CMS meant to help musicians keep track of their recorded and live activity, as well as internal documents. I created this to fill the need of my own bands. It's currently working great for us, and being tested and expanded to work for others.</p>
                             <p>
                                 It's useful for several things:
                             <ul>
@@ -105,6 +205,8 @@
                     </h3>
                     <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionProjects">
                         <div class="accordion-body">
+
+                            <p>A pair of band web sites (one for an older project, one for a newer band), each calling data from the Slow Names REST API.</p>
 
                             <div id="carouselBandSites" class="carousel slide">
                                 <div class="carousel-inner">
@@ -186,8 +288,6 @@
                                 </div>
                             </div>
 
-                            <p>A pair of band web sites (one for an older project, one for a newer band), each calling data from the Slow Names REST API.</p>
-
                             <p>Both sites are written in Typescript, using React and NextJS, including the NextJS App Router.</p>
 
                             <p>I also used these projects as an opportunity to get familiar with Tailwind CSS and its approach to design, but given the personal nature of these projects, I ultimately opted to write my designs from scratch using CSS and Sass.</p>
@@ -202,110 +302,15 @@
                 </div>
                 <div class="accordion-item">
                     <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                            Clorox brands
-                        </button>
-                    </h3>
-                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionProjects">
-                        <div class="accordion-body">
-                            <div id="carouselClorox" class="carousel slide">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="img/clorox01.jpg" class="d-block w-100" alt="screenshot of clorox.com">
-                                        <div class="carousel-caption">
-                                            <p>clorox.com</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/clorox02.jpg" class="d-block w-100" alt="screenshot of pinesol.com">
-                                        <div class="carousel-caption">
-                                            <p>pinesol.com</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/clorox03.jpg" class="d-block w-100" alt="screenshot of glad.com">
-                                        <div class="carousel-caption">
-                                            <p>glad.com</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/clorox04.jpg" class="d-block w-100" alt="screenshot of kingsford.com">
-                                        <div class="carousel-caption">
-                                            <p>kingsford.com</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/clorox05.jpg" class="d-block w-100" alt="screenshot of liquidplumr.com">
-                                        <div class="carousel-caption">
-                                            <p>liquidplumr.com</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/clorox06.jpg" class="d-block w-100" alt="screenshot of thecloroxcompany.com">
-                                        <div class="carousel-caption">
-                                            <p>thecloroxcompany.com</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/clorox07.jpg" class="d-block w-100" alt="screenshot of cloroxpro.com">
-                                        <div class="carousel-caption">
-                                            <p>cloroxpro.com</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-controls">
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselClorox" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <div class="carousel-indicators">
-                                        <button type="button" data-bs-target="#carouselClorox" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                        <button type="button" data-bs-target="#carouselClorox" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                        <button type="button" data-bs-target="#carouselClorox" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                        <button type="button" data-bs-target="#carouselClorox" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                                        <button type="button" data-bs-target="#carouselClorox" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                                        <button type="button" data-bs-target="#carouselClorox" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                                        <button type="button" data-bs-target="#carouselClorox" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                                    </div>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselClorox" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </button>
-                                </div>
-                            </div>
-
-                            <p>I worked remotely as part of Clorox's in-house dev team from 2013 to 2023. During that time I crafted and documented base styles and templates for numerous high-profile projects (clorox.com, pinesol.com, glad.com, kingsford.com, liquidplumr.com, and more).</p>
-
-                            <p>I was responsible for turning intricate wireframes into modular and scalable code using WCAG-compliant HTML, CSS, Javascript, and PHP. I also made critical bug fixes on live code, and advised design teams on web accessibility standards and best practices.</p>
-
-                            <p>I helped facilitate a Spanish translation of the core Clorox site, as well as multiple international sites, utilizing the same code base as a starting point for each.</p>
-
-                            <p class="project-link">
-                                <a href="https://www.clorox.com/" target="_blank">Clorox</a>
-                                /
-                                <a href="https://www.pinesol.com/" target="_blank">PineSol</a>
-                                /
-                                <a href="https://www.glad.com/" target="_blank">Glad</a>
-                                /
-                                <a href="https://www.kingsford.com/" target="_blank">Kingsford</a>
-                                /
-                                <a href="https://www.liquidplumr.com/" target="_blank">LiquidPlumr</a>
-                                /
-                                <a href="https://www.thecloroxcompany.com/" target="_blank">The Clorox Co.</a>
-                                /
-                                <a href="https://www.cloroxpro.com/" target="_blank">Clorox Pro</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h3 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                             RetroFret
                         </button>
                     </h3>
                     <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionProjects">
                         <div class="accordion-body">
+
+                            <p>I helped the fabulous vintage guitar shop Retrofret with an overhaul and redesign of their existing site, while keeping their ASP-based backend in place (which was used for sales both online and off).</p>
+
                             <div id="carouselRetroFret" class="carousel slide">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
@@ -351,8 +356,6 @@
                                 </div>
                             </div>
 
-                            <p>I helped the fabulous vintage guitar shop Retrofret with an overhaul and redesign of their existing site, while keeping their ASP-based backend in place (which was used for sales both online and off).</p>
-
                             <p>I worked with a luthier from their shop, Amy Mills, who came up with designs that I helped to implement, utilizing their pre-existing backend.</p>
 
                             <p>The site needed to separate their products by type (acoustic, electric, bass, amps, banjos, mandolins, etc.), then sub-type (flat top, arch top, resophonic, 12 string, tenor, etc.). Each individual instrument is well-photographed and written about in great detail, often with its particular history described (inasmuch as it's known). The site needed to showcase the care that goes into researching and repairing each of the instruments that come through the shop.</p>
@@ -375,7 +378,67 @@
                     </h3>
                     <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionProjects">
                         <div class="accordion-body">
-                            Not strictly frontend-related, but I've been working on a 
+
+                            <p>Not strictly frontend-related, but I've been working on an instrument for live electronic &amp; noise music performance, using a combination of the open-source audio programming environment PureData and the Organelle device by Critter &amp; Guitari.</p>
+
+                            <div id="carouselCutIt" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/cutit01.jpg" class="d-block w-100" alt="screencap of the Cut It development patch">
+                                        <div class="carousel-caption">
+                                            <p>The development patch for testing and coding the various components of Cut It, with the tremolo component in the background.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/cutit02.jpg" class="d-block w-100" alt="screencap of the Cut It development patch">
+                                        <div class="carousel-caption">
+                                            <p>More from the testing & development suite: The unfortunately quite redundant layout for the computer-keyboard-to-piano-keyboard utility.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/cutit03.jpg" class="d-block w-100" alt="photo of the Organelle device">
+                                        <div class="carousel-caption">
+                                            <p>The Organelle device, capable of running PureData patches without the need for a computer.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/cutit04.jpg" class="d-block w-100" alt="photo of an early design sketch for Cut It">
+                                        <div class="carousel-caption">
+                                            <p>Some early design sketches.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-controls">
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCutIt" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselCutIt" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselCutIt" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselCutIt" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselCutIt" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                    </div>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselCutIt" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <p>The idea is, with a single audio input that might not have too much variation (e.g. static, or a drone), this patch should be able to create fast tempo, rhythmically interesting music, in the style of cut-up harsh noise.</p>
+
+                            <p>My own need for this instrument comes from wanting to perform music using software that I write myself, but also wanting to avoid bringing my computer (or a similarly fragile homemade hardware device) to a potentially chaotic and rowdy performance environment.</p>
+
+                            <p>Cut It turns the Organelle into a chain of four filters. The keyboard buttons represent four groups of controls, one for each filter. These filters process the sound serially (from right to left), as a pedal board would.</p>
+
+                            <p>The patch can accept MIDI clock info via the Organelle's USB port. There are multiple parts of the patch that can do their thing either by tempo divisions based on that MIDI clock (quarter notes, eighth notes, etc.), or by milliseconds. Different parts of the patch can use different time units independently if desired (e.g. 1/8th note sample shuffling and 30ms tremolo), making for some potentially pretty freaky sounds.</p>
+
+                            <p>The knobs also control different parameters for each of the filters, and the Organelle's display will give the status of what's happening with whichever filter is selected.</p>
+
+                            <p class="project-link">
+                                <a href="https://github.com/brendanlandis/cut-it" target="_blank">Cut It source on GitHub</a>
+                            </p>
                         </div>
                     </div>
                 </div>
