@@ -93,6 +93,7 @@
                             </p>
                             <p>The CMS is constructed using Strapi, and utilizes a REST API that other sites and apps can query. An instance of the CMS is meant to be used by anyone from a single solo artist to a small collective of bands, each sharing members. A user can indicate which bands &amp; projects they're in and administrate data for each of those bands.</p>
                             <p>I'm currently writing a custom frontend that's intended to replace Strapi's admin interface, making it easier to work with this idiosyncratic data set.</p>
+                            <p class="project-link">(No link available.)</p>
                         </div>
                     </div>
                 </div>
@@ -189,31 +190,180 @@
 
                             <p>Both sites are written in Typescript, using React and NextJS, including the NextJS App Router.</p>
 
-                            <p>I also used these projects as an opportunity to get familiar with Tailwind CSS and its approach to design, but ultimately opted to write my designs from scratch using CSS and Sass.</p>
+                            <p>I also used these projects as an opportunity to get familiar with Tailwind CSS and its approach to design, but given the personal nature of these projects, I ultimately opted to write my designs from scratch using CSS and Sass.</p>
+
+                            <p class="project-link">
+                                <a href="https://receive.blue/" target="_blank">Receive</a>
+                                /
+                                <a href="https://heyexit.com/" target="_blank">Hey Exit</a>
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                            Clorox sites
+                            Clorox brands
                         </button>
                     </h3>
                     <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionProjects">
                         <div class="accordion-body">
-                            Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.
+                            <div id="carouselClorox" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/clorox01.jpg" class="d-block w-100" alt="screenshot of clorox.com">
+                                        <div class="carousel-caption">
+                                            <p>clorox.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/clorox02.jpg" class="d-block w-100" alt="screenshot of pinesol.com">
+                                        <div class="carousel-caption">
+                                            <p>pinesol.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/clorox03.jpg" class="d-block w-100" alt="screenshot of glad.com">
+                                        <div class="carousel-caption">
+                                            <p>glad.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/clorox04.jpg" class="d-block w-100" alt="screenshot of kingsford.com">
+                                        <div class="carousel-caption">
+                                            <p>kingsford.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/clorox05.jpg" class="d-block w-100" alt="screenshot of liquidplumr.com">
+                                        <div class="carousel-caption">
+                                            <p>liquidplumr.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/clorox06.jpg" class="d-block w-100" alt="screenshot of thecloroxcompany.com">
+                                        <div class="carousel-caption">
+                                            <p>thecloroxcompany.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/clorox07.jpg" class="d-block w-100" alt="screenshot of cloroxpro.com">
+                                        <div class="carousel-caption">
+                                            <p>cloroxpro.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-controls">
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselClorox" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselClorox" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselClorox" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselClorox" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselClorox" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                        <button type="button" data-bs-target="#carouselClorox" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                        <button type="button" data-bs-target="#carouselClorox" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                        <button type="button" data-bs-target="#carouselClorox" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                    </div>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselClorox" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <p>I worked remotely as part of Clorox's in-house dev team from 2013 to 2023. During that time I crafted and documented base styles and templates for numerous high-profile projects (clorox.com, pinesol.com, glad.com, kingsford.com, liquidplumr.com, and more).</p>
+
+                            <p>I was responsible for turning intricate wireframes into modular and scalable code using WCAG-compliant HTML, CSS, Javascript, and PHP. I also made critical bug fixes on live code, and advised design teams on web accessibility standards and best practices.</p>
+
+                            <p>I helped facilitate a Spanish translation of the core Clorox site, as well as multiple international sites, utilizing the same code base as a starting point for each.</p>
+
+                            <p class="project-link">
+                                <a href="https://www.clorox.com/" target="_blank">Clorox</a>
+                                /
+                                <a href="https://www.pinesol.com/" target="_blank">PineSol</a>
+                                /
+                                <a href="https://www.glad.com/" target="_blank">Glad</a>
+                                /
+                                <a href="https://www.kingsford.com/" target="_blank">Kingsford</a>
+                                /
+                                <a href="https://www.liquidplumr.com/" target="_blank">LiquidPlumr</a>
+                                /
+                                <a href="https://www.thecloroxcompany.com/" target="_blank">The Clorox Co.</a>
+                                /
+                                <a href="https://www.cloroxpro.com/" target="_blank">Clorox Pro</a>
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                            Retrofret
+                            RetroFret
                         </button>
                     </h3>
                     <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionProjects">
                         <div class="accordion-body">
-                            Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.
+                            <div id="carouselRetroFret" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/retrofret01.jpg" class="d-block w-100" alt="screencap of the RetroFret site">
+                                        <div class="carousel-caption">
+                                            <p>The home page, showcasing new arrivals, contact information, and store news.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/retrofret02.jpg" class="d-block w-100" alt="screencap of the RetroFret site">
+                                        <div class="carousel-caption">
+                                            <p>A carousel of new arrivals at the store.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/retrofret03.jpg" class="d-block w-100" alt="screencap of the RetroFret site">
+                                        <div class="carousel-caption">
+                                            <p>Listings of semi-hollow electric guitars.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/retrofret04.jpg" class="d-block w-100" alt="screencap of the RetroFret site">
+                                        <div class="carousel-caption">
+                                            <p>Details about a '63 Epiphone solid body electric guitar.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-controls">
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRetroFret" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselRetroFret" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselRetroFret" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselRetroFret" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselRetroFret" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                    </div>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselRetroFret" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <p>I helped the fabulous vintage guitar shop Retrofret with an overhaul and redesign of their existing site, while keeping their ASP-based backend in place (which was used for sales both online and off).</p>
+
+                            <p>I worked with a luthier from their shop, Amy Mills, who came up with designs that I helped to implement, utilizing their pre-existing backend.</p>
+
+                            <p>The site needed to separate their products by type (acoustic, electric, bass, amps, banjos, mandolins, etc.), then sub-type (flat top, arch top, resophonic, 12 string, tenor, etc.). Each individual instrument is well-photographed and written about in great detail, often with its particular history described (inasmuch as it's known). The site needed to showcase the care that goes into researching and repairing each of the instruments that come through the shop.</p>
+
+                            <p>Another nice thing: Users can toggle already-sold items on and off as they dig through the site's database, using it as a reference for information on rare instruments that might otherwise be quite difficult to find!</p>
+
+                            <p>The site is maintained by Amy Mills.</p>
+
+                            <p class="project-link">
+                                <a href="https://www.retrofret.com/" target="_blank">Retrofret.com</a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -225,7 +375,7 @@
                     </h3>
                     <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionProjects">
                         <div class="accordion-body">
-                            Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.
+                            Not strictly frontend-related, but I've been working on a 
                         </div>
                     </div>
                 </div>
