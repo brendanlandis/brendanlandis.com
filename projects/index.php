@@ -130,37 +130,37 @@
                                     <div class="carousel-item active">
                                         <img src="img/cms01.jpg" class="d-block w-100" alt="A list of bands within the CMS">
                                         <div class="carousel-caption">
-                                            <p>A list of bands within Strapi</p>
+                                            <p>A list of bands within the Strapi interface.</p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <img src="img/cms02.jpg" class="d-block w-100" alt="The structure of the Release content type">
                                         <div class="carousel-caption">
-                                            <p>The structure of the Release content type within Strapi</p>
+                                            <p>The structure of the Release content type within the Strapi interface.</p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <img src="img/cms03.jpg" class="d-block w-100" alt="The CMS' media library">
                                         <div class="carousel-caption">
-                                            <p>The CMS' media library within Strapi</p>
+                                            <p>The CMS' media library within the Strapi interface.</p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <img src="img/cms04.jpg" class="d-block w-100" alt="The form for entering a post within the custom CMS frontend">
                                         <div class="carousel-caption">
-                                            <p>The form for entering a post within the custom CMS frontend</p>
+                                            <p>The Add New Post interface within the custom CMS frontend.</p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <img src="img/cms05.jpg" class="d-block w-100" alt="...">
                                         <div class="carousel-caption">
-                                            <p>A list of previous posts for a particular band within the custom CMS frontend</p>
+                                            <p>A list of previous posts for a particular band within the custom CMS frontend.</p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <img src="img/cms06.jpg" class="d-block w-100" alt="...">
                                         <div class="carousel-caption">
-                                            <p>The form for entering a new show (or tour) within the custom CMS frontend</p>
+                                            <p>The Add New Show / Tour interface within the custom CMS frontend.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -187,11 +187,11 @@
                                 It's useful for several things:
                             <ul>
                                 <li>Keeping track of future show bookings &mdash; whether a show has been confirmed by the venue, whether it has a flyer, a ticket link, a full lineup, start time, etc.</li>
-                                <li>Maintaining an archive for one's recorded material and past shows (including photos and videos).</li>
-                                <li>Managing internal-facing documents: press photos, band logos &amp; promotional material, writing tools, instrumental practice logs, merch templates &amp; designs; contact information for venue promoters in various cities, etc.</li>
+                                <li>Maintaining an archive of one's recorded material and past shows (including photos and videos).</li>
+                                <li>Managing internal-facing documents: press photos, band logos &amp; promotional material, merch templates &amp; designs, contact information for venue promoters in various cities, etc.</li>
                             </ul>
                             </p>
-                            <p>The CMS is constructed using Strapi, and utilizes a REST API that other sites and apps can query. An instance of the CMS is meant to be used by anyone from a single solo artist to a small collective of bands, each sharing members. A user can indicate which bands &amp; projects they're in and administrate data for each of those bands.</p>
+                            <p>The CMS is constructed using Strapi, and utilizes a REST API that other sites and apps can query. An instance of the CMS is meant to be used by anyone from a single solo artist to a small collective of bands. A user can indicate which bands they're in and administrate data for each of those bands.</p>
                             <p>I'm currently writing a custom frontend that's intended to replace Strapi's admin interface, making it easier to work with this idiosyncratic data set.</p>
                             <p class="project-link">(No link available.)</p>
                         </div>
@@ -428,9 +428,9 @@
 
                             <p>The idea is, with a single audio input that might not have too much variation (e.g. static, or a drone), this patch should be able to create fast tempo, rhythmically interesting music, in the style of cut-up harsh noise.</p>
 
-                            <p>My own need for this instrument comes from wanting to perform music using software that I write myself, but also wanting to avoid bringing my computer (or a similarly fragile homemade hardware device) to a potentially chaotic and rowdy performance environment.</p>
+                            <p>My own need for this instrument comes from wanting to perform live using software that I've written myself, but also wanting to avoid bringing my computer (or a similarly fragile homemade hardware device) to a potentially chaotic and rowdy performance environment.</p>
 
-                            <p>Cut It turns the Organelle into a chain of four filters. The keyboard buttons represent four groups of controls, one for each filter. These filters process the sound serially (from right to left), as a pedal board would.</p>
+                            <p>Cut It turns the Organelle into a chain of four filters. The keyboard buttons become four groups of controls, one for each filter. These filters process the sound serially (from right to left), as a pedal board would.</p>
 
                             <p>The patch can accept MIDI clock info via the Organelle's USB port. There are multiple parts of the patch that can do their thing either by tempo divisions based on that MIDI clock (quarter notes, eighth notes, etc.), or by milliseconds. Different parts of the patch can use different time units independently if desired (e.g. 1/8th note sample shuffling and 30ms tremolo), making for some potentially pretty freaky sounds.</p>
 

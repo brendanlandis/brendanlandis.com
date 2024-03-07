@@ -7,6 +7,14 @@
     section {
         margin-bottom: 3em;
     }
+    h2 {
+        margin-bottom: 0;
+    }
+    .download-resume {
+        display: inline-block;
+        margin-bottom: 2em;
+        font-style: italic;
+    }
     #experience, #education {
         ul:not(.job-notes) {
             margin: 0;

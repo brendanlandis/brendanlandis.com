@@ -6,8 +6,8 @@ $mq-sm-min: 400px;
 $mq-sm-max: 480px;
 $mq-md-min: 481px;
 $mq-md-med: 550px;
-$mq-md-max: 768px;
-$mq-lg-min: 769px;
+$mq-md-max: 991px;
+$mq-lg-min: 992px;
 $mq-lg-max: 1024px;
 $mq-xl-min: 1025px;
 $mq-xl-med: 1200px;
@@ -40,7 +40,8 @@ $media-query-free-breakpoint: 900px;
 
 // sizes
 
-$desktop-break: $mq-xl-min;
+$desktop-break: $mq-lg-min;
+$large-break: $mq-xl-min;
 $tablet-break: $mq-md-med;
 
 @include respond-to(0, $desktop-break) {

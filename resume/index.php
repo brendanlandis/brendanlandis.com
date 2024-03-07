@@ -13,6 +13,8 @@
     <?php include "../header.php"; ?>
     <main>
         <h2>Resume</h2>
+        <a href="/img/resume_brendanlandis.pdf" class="download-resume">Download this as a PDF</a>
+
         <section id="skills">
             <h3>Skills</h3>
             <ul>
