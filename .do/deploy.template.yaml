@@ -1,8 +1,0 @@
-spec:
-    name: brendanlandis.com
-    services:
-        - environment_slug: php
-          git:
-              branch: main
-              repo_clone_url: https://github.com/brendanlandis/brendanlandis.com.git
-          name: brendanlandis.com
