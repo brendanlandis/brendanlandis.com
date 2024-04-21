@@ -13,7 +13,7 @@
     <main>
         <section>
             <div id="self">
-                <img src="/img/self.jpg" alt="a photo of me" />
+                <img src="img/self.jpg" alt="a photo of me" />
             </div>
             <p>
                 I'm a self-taught designer and front-end developer with over
