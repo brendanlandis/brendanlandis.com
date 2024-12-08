@@ -1,6 +1,9 @@
 <link rel="stylesheet" href="css/screen.css" />
 
 <link type="text/plain" rel="author" href="humans.txt" />
+
+<script defer src="https://stats.slownames.net/script.js" data-website-id="e27777f1-cdee-44d3-88ea-6bbb3af040f7"></script>
+
 <meta name="description" content="Portfolio for Brendan Landis" />
 
 <meta property="og:title" content="Brendan Landis" />
