@@ -24,6 +24,7 @@ ICONS
 https://icomoon.io/app/#/select/library
 https://phosphoricons.com/ - these ones speak to me
 https://heroicons.com/outline - these are nice too tho
+https://lucide.dev/icons/ - ah damn these are good too
 
 CSS DESIGN
 https://moderncss.dev/12-modern-css-one-line-upgrades/#stable-enhancements - check periodically for CSS enhancements
