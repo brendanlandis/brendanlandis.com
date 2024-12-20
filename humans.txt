@@ -1,7 +1,0 @@
-/* TEAM */
-    Author: Brendan Landis
-    contact: b [at] slow names [dot] net
-    Location: Queens, NY
-
-/* SITE */
-    Last update: March 2024
