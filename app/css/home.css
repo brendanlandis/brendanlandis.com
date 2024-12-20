@@ -1,0 +1,48 @@
+.wrapper-home {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2em;
+}
+
+#introText {
+  display: flex;
+  gap: 0.7em;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  a {
+    text-decoration: underline;
+    background: #ccc;
+    padding: 0.2em 0.4em 0.4em 0.4em;
+  }
+  #chooser {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5em;
+  }
+  .chooser-item {
+    line-height: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    > *:nth-child(2) {
+      width: 100%;
+    }
+    > *:nth-child(1),
+    > *:nth-child(3) {
+      position: relative;
+    }
+    &#chooser-top > *:nth-child(1),
+    &#chooser-top > *:nth-child(3) {
+      top: 0.7em;
+    }
+    &#chooser-middle > *:nth-child(1),
+    &#chooser-middle > *:nth-child(3) {
+      top: 0.1em;
+    }
+    &#chooser-bottom > *:nth-child(1),
+    &#chooser-bottom > *:nth-child(3) {
+      bottom: 0.5em;
+    }
+  }
+}

@@ -14,11 +14,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header>
-          <h1>Brendan Landis</h1>
-        </header>
+        <header></header>
         <main>{children}</main>
-        <footer>it's the footer wow</footer>
+        <footer></footer>
       </body>
     </html>
   );
