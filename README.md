@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+STUFF TO USE:
 
-## Getting Started
+COLOR
+https://www.deviantart.com/cpresti/art/Unified-Color-Palette-Tutorial-290073389 - color tutorial
+https://csshero.org/mesher/ - maybe?
+https://color.hailpixel.com/ - pick a random color
+https://colorffy.com/ - get some palettes together
+https://www.joshwcomeau.com/gradient-generator/ - get those gradients looking right
+https://mybrandnewlogo.com/color-gradient-generator - gradients for individual elements
+https://colorblendy.com/#!/dodge/aabbcc/333333 - colors for an overlapping layout
+https://www.learnui.design/tools/accessible-color-generator.html - make colors a11y-friendly
 
-First, run the development server:
+FONT PICKING
+https://www.typewolf.com/google-fonts - curated list of fonts
+https://www.fontshare.com/pairs - better than google fonts
+https://v-fonts.com/ - extremely cool variable fonts
+https://modernfontstacks.com/ - also a good way of getting some default fonts
+https://fontsinuse.com/ - big ol font catalog
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+TYPESETTING
+https://typeculator.alexpaul.me/ - typescale calculator
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ICONS
+https://icomoon.io/app/#/select/library
+https://phosphoricons.com/ - these ones speak to me
+https://heroicons.com/outline - these are nice too tho
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+CSS DESIGN
+https://moderncss.dev/12-modern-css-one-line-upgrades/#stable-enhancements - check periodically for CSS enhancements
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+GENERAL
+https://texturelabs.org/ - background textures
+https://a-website-is-a-room.net/ - general inspo
+http://spin.js.org/ - loading spinner
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+FRONT PAGE
+https://www.taylorpenton.com/design - main hinge
+https://videogamesskies.tumblr.com/archive - backgrounds, could use a different one for night & day mode
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+TAROT READER
+- individual readings
+- parties and events
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+DESIGNER / DEVELOPER
+- web design and development
+- packaging design, album art, typography, etc.
+https://departuremono.com/ - font
+https://codepen.io/enbee81/full/yLyrmyg - diagonal layout for designy stuff
+https://codyhouse.co/blog/post/css-diagonal-containers/ - more diagonal containers
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+MUSICIAN
+- educator
+- mixing / mastering / engineering
+- hey I make stuff too
+- I'll help you write your stuff
+
+
+NOT THIS TIME BUT THIS IS SO COOL
+https://crawlspace.cool/
