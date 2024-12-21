@@ -18,6 +18,14 @@ const fontMovementThin = localFont({
   src: './fonts/Movement-Directthin.woff2',
   variable: '--font-movement-thin',
 });
+const fontMovementVariable = localFont({
+  src: './fonts/MovementV.ttf',
+  variable: '--font-movement-variable',
+});
+const fontSynonym = localFont({
+  src: './fonts/Synonym-Variable.woff2',
+  variable: '--font-synonym',
+});
 
 export default function RootLayout({
   children,
@@ -28,8 +36,8 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`
-          ${fontMovementBlack.variable}
-          ${fontMovementThin.variable}
+          ${fontMovementVariable.variable}
+          ${fontSynonym.variable}
         `}
       >
         <div id="bgTexture">
@@ -37,7 +45,7 @@ export default function RootLayout({
         </div>
         <header>
           <div id="headerIcon">
-            <Yarn size={100} weight="thin" />
+            <Yarn size={80} weight="thin" />
           </div>
         </header>
         <main>{children}</main>

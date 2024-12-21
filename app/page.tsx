@@ -20,19 +20,19 @@ export default function Home() {
         <p>I'm an independent</p>
         <div id="chooser">
           <div className="chooser-item" id="chooser-top">
-            <ArrowUpRight size={44} weight="regular" />
-            <a href="/dev/">designer &amp; developer</a>
-            <ArrowDownRight size={44} weight="regular" />
+            <ArrowUpRight size={60} weight="duotone" />
+            <a href="/dev/" className="button">designer &amp; developer</a>
+            <ArrowDownRight size={60} weight="duotone" />
           </div>
           <div className="chooser-item" id="chooser-middle">
-            <ArrowRight size={44} weight="regular" />
-            <a href="/music/">musician &amp; teacher</a>
-            <ArrowRight size={44} weight="regular" />
+            <ArrowRight size={60} weight="duotone" />
+            <a href="/music/" className="button">musician</a>
+            <ArrowRight size={60} weight="duotone" />
           </div>
           <div className="chooser-item" id="chooser-bottom">
-            <ArrowDownRight size={44} weight="regular" />
-            <a href="/tarot/">tarot reader</a>
-            <ArrowUpRight size={44} weight="regular" />
+            <ArrowDownRight size={60} weight="duotone" />
+            <a href="/tarot/" className="button">tarot reader</a>
+            <ArrowUpRight size={60} weight="duotone" />
           </div>
         </div>
         <p>based in Queens.</p>

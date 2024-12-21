@@ -15,14 +15,10 @@ export default {
       fontFamily: {
         movementBlack: ['var(--font-movement-black)'],
         movementThin: ['var(--font-movement-thin)'],
-        tanker: ['var(--font-tanker)'],
-        bea: ['var(--font-bea)'],
-        fortune: ['var(--font-fortune)'],
-        roadrunner: ['var(--font-roadrunner)'],
-        rosemary: ['var(--font-rosemary)'],
-        tommytokyo: ['var(--font-tommytokyo)'],
+        movementVariable: ['var(--font-movement-variable)'],
+        synonym: ['var(--font-synonym)'],
       },
     },
   },
-  plugins: [require('@tailwindcss/forms')],
+  plugins: [],
 } satisfies Config;
