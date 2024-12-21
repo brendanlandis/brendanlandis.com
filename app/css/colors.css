@@ -1,11 +1,4 @@
-body {
-  @apply bg-white text-black; /* Default styles for day mode */
-}
-
-.dark body {
-  @apply bg-gray-900 text-white; /* Dark mode styles */
-}
-
+/* default colors */
 body {
   --1d1a: #c0c5c9;
   --1d2a: #a1a7ab;
@@ -32,15 +25,43 @@ body {
   --5d3a: #424747;
   --5d4a: #4a4c4a;
   --5d5a: #2d2a25;
+}
 
+body {
+  background-color: hsla(199, 14%, 52%, 0.5);
+  background-image: radial-gradient(
+      at 77% 11%,
+      hsla(198, 8%, 44%, 0.5) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 36% 97%, hsla(180, 4%, 27%, 0.59) 0px, transparent 50%),
+    radial-gradient(at 40% 20%, hsla(198, 13%, 59%, 0.5) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(200, 7%, 53%, 0.5) 0px, transparent 50%),
+    radial-gradient(at 79% 22%, hsla(203, 7%, 72%, 0.5) 0px, transparent 50%);
+  #bgTexture {
+    opacity: 0.9;
+    filter: brightness(2.6) grayscale(0.7);
+  }
   --text-color: var(--5d5a);
   --bg-color: var(--1d1a);
   --bright-color: var(--3d3a);
 }
 
+.dark body {
+  background-color: hsla(199, 14%, 52%, 1);
+  background-image: none;
+  #bgTexture {
+    opacity: 1;
+    filter: brightness(0.5);
+  }
+  --text-color: var(--1d1a);
+  --bg-color: var(--5d5a);
+  --bright-color: var(--3d3a);
+}
+
 h1,
 #introText,
-#headerIcon {
+header {
   color: var(--text-color);
 }
 
@@ -50,7 +71,6 @@ h1,
 }
 
 .button {
-  padding: 0.2em 0.2em 0.4em 0.2em;
   color: var(--text-color);
   border: 2px solid var(--text-color);
   background: var(--bg-color);

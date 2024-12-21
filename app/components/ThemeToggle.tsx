@@ -1,15 +1,13 @@
 'use client';
-import { useTheme } from "../hooks/useTheme";
+import { useTheme } from '../hooks/useTheme';
+import { MoonStars, SunHorizon } from '@phosphor-icons/react';
 
 export default function ThemeToggle() {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <button
-      onClick={toggleTheme}
-      className="p-2 border rounded fixed top-4 right-4"
-    >
-      Toggle to {theme === 'light' ? 'Dark' : 'Light'} Mode
+    <button onClick={toggleTheme} className="themeToggle">
+      {theme === 'light' ? <MoonStars size={40} weight="thin" /> : <SunHorizon size={40} weight="thin" />}
     </button>
   );
 }

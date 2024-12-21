@@ -4,7 +4,7 @@ import './css/screen.css';
 import Image from 'next/image';
 import copperImage from './img/copper.jpg';
 import { Yarn } from '@phosphor-icons/react/dist/ssr';
-import ThemeToggle from './components/themeToggle';
+import ThemeToggle from './components/ThemeToggle';
 
 export const metadata: Metadata = {
   title: 'Brendan Landis',
@@ -37,10 +37,10 @@ export default function RootLayout({
           <Image src={copperImage} alt="" width={2048} height={2048} />
         </div>
         <header>
-          <ThemeToggle />
           <div id="headerIcon">
             <Yarn size={80} weight="thin" />
           </div>
+          <ThemeToggle />
         </header>
         <main>{children}</main>
         <footer></footer>
