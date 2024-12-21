@@ -1,7 +1,6 @@
 STUFF TO USE:
 
 COLOR
-https://www.deviantart.com/cpresti/art/Unified-Color-Palette-Tutorial-290073389 - color tutorial
 https://csshero.org/mesher/ - maybe?
 https://color.hailpixel.com/ - pick a random color
 https://colorffy.com/ - get some palettes together

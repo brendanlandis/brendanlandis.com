@@ -1,0 +1,39 @@
+body {
+  --1d1a: #c0c5c9;
+  --1d2a: #a1a7ab;
+  --1d3a: #a9b3ba;
+  --1d4a: #b1b8bd;
+  --1d5a: #949697;
+  --2d1a: #778185;
+  --2d2a: #586367;
+  --2d3a: #606f75;
+  --2d4a: #687479;
+  --2d5a: #4b5253;
+  --3d1a: #8a9da5;
+  --3d2a: #6b7f88;
+  --3d3a: #738b96;
+  --3d4a: #7b9099;
+  --3d5a: #5e6e74;
+  --4d1a: #9ca7ad;
+  --4d2a: #7d898f;
+  --4d3a: #85959e;
+  --4d4a: #8d9aa1;
+  --4d5a: #70787c;
+  --5d1a: #595957;
+  --5d2a: #3a3b39;
+  --5d3a: #424747;
+  --5d4a: #4a4c4a;
+  --5d5a: #2d2a25;
+
+  --text-color: var(--5d5a);
+}
+
+
+
+#headerIcon svg {
+  fill: var(--text-color);
+}
+
+h1 {
+  color: var(--text-color);
+}

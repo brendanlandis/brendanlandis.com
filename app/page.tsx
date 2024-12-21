@@ -1,5 +1,4 @@
 import {
-  Yarn,
   ArrowUpRight,
   ArrowRight,
   ArrowDownRight,
@@ -16,10 +15,7 @@ export default function Home() {
       <Graph size={100} weight="duotone" />
       <FlyingSaucer size={100} weight="duotone" /> */}
 
-      <div id="headerIcon">
-        <Yarn size={100} weight="thin" />
-      </div>
-      <h1>Hey, I'm Brendan.</h1>
+      <h1>Hi, I'm <span>Brendan</span>.</h1>
       <div id="introText">
         <p>I'm an independent</p>
         <div id="chooser">
