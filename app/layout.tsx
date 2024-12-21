@@ -4,20 +4,13 @@ import './css/screen.css';
 import Image from 'next/image';
 import copperImage from './img/copper.jpg';
 import { Yarn } from '@phosphor-icons/react/dist/ssr';
+import ThemeToggle from './components/themeToggle';
 
 export const metadata: Metadata = {
   title: 'Brendan Landis',
   description: 'Designer, developer, musician, reader',
 };
 
-const fontMovementBlack = localFont({
-  src: './fonts/Movement-DirectBlack.woff2',
-  variable: '--font-movement-black',
-});
-const fontMovementThin = localFont({
-  src: './fonts/Movement-Directthin.woff2',
-  variable: '--font-movement-thin',
-});
 const fontMovementVariable = localFont({
   src: './fonts/MovementV.ttf',
   variable: '--font-movement-variable',
@@ -44,6 +37,7 @@ export default function RootLayout({
           <Image src={copperImage} alt="" width={2048} height={2048} />
         </div>
         <header>
+          <ThemeToggle />
           <div id="headerIcon">
             <Yarn size={80} weight="thin" />
           </div>

@@ -1,4 +1,12 @@
 body {
+  @apply bg-white text-black; /* Default styles for day mode */
+}
+
+.dark body {
+  @apply bg-gray-900 text-white; /* Dark mode styles */
+}
+
+body {
   --1d1a: #c0c5c9;
   --1d2a: #a1a7ab;
   --1d3a: #a9b3ba;
