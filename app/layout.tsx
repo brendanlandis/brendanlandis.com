@@ -3,7 +3,7 @@ import localFont from 'next/font/local';
 import './css/screen.css';
 import Image from 'next/image';
 import copperImage from './img/copper.jpg';
-import { Yarn } from '@phosphor-icons/react/dist/ssr';
+import { Yarn, Stairs, PottedPlant, Heartbeat, HandHeart, Graph, FlyingSaucer } from '@phosphor-icons/react/dist/ssr';
 import ThemeToggle from './components/ThemeToggle';
 
 export const metadata: Metadata = {
@@ -37,8 +37,15 @@ export default function RootLayout({
           <Image src={copperImage} alt="" width={2048} height={2048} />
         </div>
         <header>
+          <div></div>
           <div id="headerIcon">
-            <Yarn size={80} weight="thin" />
+            {/* <Yarn size={80} weight="thin" /> */}
+            {/* <Stairs size={80} weight="thin" /> */}
+            {/* <PottedPlant size={80} weight="thin" /> */}
+            {/* <Heartbeat size={80} weight="thin" /> */}
+            {/* <HandHeart size={80} weight="thin" /> */}
+            {/* <Graph size={80} weight="thin" /> */}
+            <FlyingSaucer size={80} weight="thin" />
           </div>
           <ThemeToggle />
         </header>

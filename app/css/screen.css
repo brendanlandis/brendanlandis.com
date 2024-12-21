@@ -33,7 +33,16 @@ footer {
 }
 
 header {
-  padding-top: 1em;
+  padding: 1em 1em 0 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-beween;
+  #themeToggle {
+    text-align: right;
+    svg {
+      margin-left: auto;
+    }
+  }
 }
 
 #headerIcon {
