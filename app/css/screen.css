@@ -3,6 +3,11 @@
 @tailwind utilities;
 @import 'colors.css';
 
+
+* {
+  transition: all 0.5s;
+}
+
 body {
   text-wrap: pretty;
   text-align: center;
@@ -23,6 +28,11 @@ body {
   left: 0;
   right: 0;
   z-index: 0;
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
 }
 
 header,
@@ -37,11 +47,11 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-beween;
-  #themeToggle {
-    text-align: right;
-    svg {
-      margin-left: auto;
-    }
+  align-items: start;
+  #headerSettings {
+    display: flex;
+    justify-content: end;
+    gap: 2em;
   }
 }
 

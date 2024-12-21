@@ -7,7 +7,7 @@ export default function ThemeToggle() {
 
   return (
     <button onClick={toggleTheme} id="themeToggle">
-      {theme === 'light' ? <MoonStars size={40} weight="thin" /> : <SunHorizon size={40} weight="thin" />}
+      {theme === 'light' ? <MoonStars size={40} weight="regular" /> : <SunHorizon size={40} weight="regular" />}
     </button>
   );
 }

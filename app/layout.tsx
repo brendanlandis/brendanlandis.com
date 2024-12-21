@@ -3,8 +3,18 @@ import localFont from 'next/font/local';
 import './css/screen.css';
 import Image from 'next/image';
 import copperImage from './img/copper.jpg';
-import { Yarn, Stairs, PottedPlant, Heartbeat, HandHeart, Graph, FlyingSaucer } from '@phosphor-icons/react/dist/ssr';
+import {
+  Yarn,
+  Stairs,
+  PottedPlant,
+  Heartbeat,
+  HandHeart,
+  Graph,
+  FlyingSaucer,
+  List,
+} from '@phosphor-icons/react/dist/ssr';
 import ThemeToggle from './components/ThemeToggle';
+import Menu from './components/Menu';
 
 export const metadata: Metadata = {
   title: 'Brendan Landis',
@@ -41,13 +51,16 @@ export default function RootLayout({
           <div id="headerIcon">
             {/* <Yarn size={80} weight="thin" /> */}
             {/* <Stairs size={80} weight="thin" /> */}
-            {/* <PottedPlant size={80} weight="thin" /> */}
-            {/* <Heartbeat size={80} weight="thin" /> */}
+            <PottedPlant size={80} weight="thin" />
+            {/* <Heartbeat size={40} weight="regular" /> */}
             {/* <HandHeart size={80} weight="thin" /> */}
             {/* <Graph size={80} weight="thin" /> */}
-            <FlyingSaucer size={80} weight="thin" />
+            {/* <FlyingSaucer size={80} weight="thin" /> */}
           </div>
-          <ThemeToggle />
+          <div id="headerSettings">
+            <ThemeToggle />
+            <Menu />
+          </div>
         </header>
         <main>{children}</main>
         <footer></footer>

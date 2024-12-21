@@ -22,7 +22,7 @@ header {
 
 h1 {
   @apply font-movementVariable;
-  font-variation-settings: 'wght' 800, 'SPAC' 100;
+  font-variation-settings: 'wght' 100, 'SPAC' 100;
   font-size: 7em;
 }
 
